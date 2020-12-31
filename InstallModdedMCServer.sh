@@ -32,9 +32,9 @@ mkdir /home/$username/temp
 
 #Scripts
 echo "Downloading Scripts"
-wget https://raw.githubusercontent.com/Buddster124/MinecraftForgeServerScripts/main/accessConsole.sh -O /home/$username/scripts/accessConsole.sh
-wget https://raw.githubusercontent.com/Buddster124/MinecraftForgeServerScripts/main/startServer.sh -O /home/$username/scripts/startServer.sh
-wget https://raw.githubusercontent.com/Buddster124/MinecraftForgeServerScripts/main/startServerScreen.sh -O /home/$username/scripts/startServerScreen.sh
+wget https://raw.githubusercontent.com/Buddster124/Forge-Minecraft-Server/main/accessConsole.sh -O /home/$username/scripts/accessConsole.sh
+wget https://raw.githubusercontent.com/Buddster124/Forge-Minecraft-Server/main/startServer.sh -O /home/$username/scripts/startServer.sh
+wget https://raw.githubusercontent.com/Buddster124/Forge-Minecraft-Server/main/startServerScreen.sh -O /home/$username/scripts/startServerScreen.sh
 
 #Forge Installer
 wget $forgeUrl -O /home/$username/minecraft/$forgeJar
